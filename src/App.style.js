@@ -34,12 +34,13 @@ const DiceIcon = styled.div`
   position: absolute;
   bottom: -30px;
   left: 43%;
+  cursor: pointer;
   background-color: hsl(150, 100%, 66%);
   padding: 20px;
   border-radius: 50%;
 
   @media screen and (min-width: 600px) {
-    left: 45%;
+    left: 44%;
   }
 `
 
