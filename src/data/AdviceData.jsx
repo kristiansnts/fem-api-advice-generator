@@ -44,12 +44,12 @@ const AdviceData = () => {
             })
         }
         fetchAdvice()
-        const interval = setInterval(() => {
-            fetchAdvice()
-        }, 10000)
-        return () => {
-            clearInterval(interval)
-        }
+        // const interval = setInterval(() => {
+        //     fetchAdvice()
+        // // }, 10000)
+        // return () => {
+        //     clearInterval(interval)
+        // }
     },[])
 
 
