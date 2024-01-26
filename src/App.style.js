@@ -25,9 +25,6 @@ const AdviceText = styled.p`
 `
 
 const DiceIcon = styled.div`
-  background-image: url(${props => props.img});
-  background-position: center;
-  background-repeat: no-repeat;
   width: 20px;
   height: 20px;
   position: absolute;
@@ -37,6 +34,11 @@ const DiceIcon = styled.div`
   background-color: hsl(150, 100%, 66%);
   padding: 20px;
   border-radius: 50%;
+  
+  img {
+    width: 100%;
+    transform: scale(1.5);
+  }
 
   @media screen and (min-width: 600px) {
     left: 44%;

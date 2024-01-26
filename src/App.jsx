@@ -16,7 +16,9 @@ function App() {
           <source media="(min-width: 600px)" srcSet={desktopDivider} />
           <img src={mobileDivider} />
         </picture>
-        <DiceIcon img={diceIcon}/>
+        <DiceIcon>
+          <img src={diceIcon} />
+        </DiceIcon>
       </Wrapper>
     </>
   )
