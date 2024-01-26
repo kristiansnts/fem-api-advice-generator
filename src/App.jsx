@@ -5,6 +5,7 @@ import { DiceIcon, Wrapper } from './App.style'
 import desktopDivider from './assets/images/pattern-divider-desktop.svg'
 import mobileDivider from './assets/images/pattern-divider-mobile.svg'
 import AdviceData from './data/AdviceData'
+import diceIcon from './assets/images/icon-dice.svg'
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <source media="(min-width: 600px)" srcSet={desktopDivider} />
           <img src={mobileDivider} />
         </picture>
-        <DiceIcon/>
+        <DiceIcon img={diceIcon}/>
       </Wrapper>
     </>
   )

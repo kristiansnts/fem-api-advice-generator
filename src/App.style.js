@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import diceIcon from './assets/images/icon-dice.svg'
 
 const Wrapper = styled.div`
   width: min(90%, 450px);
@@ -26,7 +25,7 @@ const AdviceText = styled.p`
 `
 
 const DiceIcon = styled.div`
-  background-image: url(${diceIcon});
+  background-image: url(${props => props.img});
   background-position: center;
   background-repeat: no-repeat;
   width: 20px;
